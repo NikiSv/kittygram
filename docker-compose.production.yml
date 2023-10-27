@@ -25,6 +25,7 @@ services:
     restart: always
     volumes:
       - static_volume:/static
+
   gateway:
     image: niki007/kittygram_gateway
     env_file: .env
