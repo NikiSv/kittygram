@@ -1,5 +1,7 @@
 version: '3'
 
+restart: always
+
 volumes:
   pg_data_production:
   static_volume:
@@ -27,7 +29,7 @@ services:
     image: niki007/kittygram_gateway
     env_file: .env
     ports:
-      - 9000:80
+      - $PORT:80
     volumes:
       - static_volume:/static
       - media_volume:/app/media/
