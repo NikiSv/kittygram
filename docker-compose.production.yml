@@ -28,8 +28,6 @@ services:
   gateway:
     image: niki007/kittygram_gateway
     env_file: .env
-    args:
-    - --default-addr=http://localhost:8000
     restart: always
     ports:
       - ${SERVER_PORT}:80
