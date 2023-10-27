@@ -29,7 +29,7 @@ services:
     image: niki007/kittygram_gateway
     env_file: .env
     ports:
-      - $PORT:80
+      - PORT:80
     volumes:
       - static_volume:/static
       - media_volume:/app/media/
