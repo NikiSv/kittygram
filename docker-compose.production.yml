@@ -1,7 +1,5 @@
 version: '3'
 
-restart: always
-
 volumes:
   pg_data_production:
   static_volume:
@@ -16,6 +14,7 @@ services:
   backend:
     image: niki007/kittygram_backend
     env_file: .env
+    restart: always
     volumes:
       - static_volume:/backend_static
       - media_volume:/app/media/
@@ -23,11 +22,13 @@ services:
     env_file: .env
     image: niki007/kittygram_frontend
     command: cp -r /app/build/. /static/
+    restart: always
     volumes:
       - static_volume:/static
   gateway:
     image: niki007/kittygram_gateway
     env_file: .env
+    restart: always
     ports:
       - PORT:80
     volumes:
