@@ -35,7 +35,7 @@ POSTGRES_PASSWORD=пароль
 DB_NAME=название_базы_данных
 DB_HOST=db
 DB_PORT=5432
-PORT=значение_порта
+SERVER_PORT=значение_порта
 ```
 4. Запустите приложение с помощью Docker Compose:
 

@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . .
 
-CMD ["bush", "start_docker.sh"] 
+CMD ["bash", "start_docker.sh"] 
