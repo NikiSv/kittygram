@@ -17,7 +17,7 @@ sudo sh ./get-docker.sh
 1. Клонируйте репозиторий проекта:
 
 ```bash
-git clone git@github.com:NikiSv/infra_sprint1.git
+git clone git@github.com:NikiSv/kittygram.git
 ```
 
 2. Перейдите в директорию проекта:
@@ -71,3 +71,13 @@ http://localhost:PORT
 ```bash
 docker compose down
 ```
+
+#### Технологии:
+
+- Python
+- Django
+- REST
+- PostgreSQL
+- Djoser
+- Gunicorn
+- Docker
