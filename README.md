@@ -1,6 +1,6 @@
-# Kittygram
+# Photogram
 
-Kittygram - веб-приложение для обмена фотографиями котиков.
+Photogram - веб-приложение для обмена фотографиями.
 
 ### Установка докера на компьютер
 - **Windows**: установите WSL [по инструкции](https://www.docker.com/products/docker-desktop/), после чего установите [Docker Desktop](https://www.docker.com/products/docker-desktop/). 
@@ -17,7 +17,7 @@ sudo sh ./get-docker.sh
 1. Клонируйте репозиторий проекта:
 
 ```bash
-git clone git@github.com:NikiSv/kittygram.git
+git clone git@github.com:NikiSv/photogram.git
 ```
 
 2. Перейдите в директорию проекта:
